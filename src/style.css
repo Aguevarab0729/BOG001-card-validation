@@ -1,0 +1,210 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background: #9DC3C1;
+  font-size: 1.4em;
+  text-align: justify;
+  padding: 10px;
+  position: relative;
+  width: 1024px;
+  height: 1440px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+
+  span {
+    position: absolute;
+    left: 0px;
+    top: 350px;
+    font-size: 40px; 
+    margin-inline-start: 20px;
+    background-color: transparent;
+    display: block;
+  } 
+  
+  div.header {
+    font-family: serif;
+    font-size: 2.5em;
+    font-variant: small-caps;
+    color: #218380;
+    padding: 50px;
+    text-align: center;
+    background: none; 
+  }
+  
+  section {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 250px;
+    margin-left: 250px;
+    padding: 10px;
+  }
+
+  article {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 90px;
+    margin-left: 90px;
+    padding: 10px;
+  }
+
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    font-size: 35px;
+    color: #218380;
+    text-align: center;
+  }
+
+  .topnav {
+    margin: 0;
+    border: 3px solid;
+    background: #6C49B8;
+    padding: 10px;
+  }
+  
+  .topnav a {
+    float: none;
+    display: inline;
+    color:  black;
+    text-align: center;
+    padding: 2px 17px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .topnav a:hover {
+    background-color:  #4F86C6;
+    color: pink;
+    }
+  
+  .topnav .login-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 0;
+    font-size: 17px;
+    border: none;
+    width: 120px;
+  }
+  
+  .login-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 0;
+    margin-right: 12px;
+    background-color: gray;
+    color: white;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color:  green;
+  }
+  
+  ::placeholder {
+   background: gainsboro;
+   color:black;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4FB0C6;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.6s;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.4s;
+  }
+  .sidenav a:hover {
+    background-color: #6C49B8;
+    color: aquamarine;
+    }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 56px;
+    margin-left: 50px;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  div#vista1.container {
+    margin: auto;
+    text-align: center;
+    background-color: none;
+    font-size: 5em;
+  }
+  
+  form#formPago.container {
+    display: block;
+    position: relative;
+    background-color: #4FB0C6;
+    margin: auto;
+    border: 6px solid #218380;
+    border-radius: 30px;
+    font-size: 20px;
+    text-align: center;
+    width: 50%;
+    height: 40%;
+  }
+
+  input#volver.botonReiniciar {
+    position: absolute;
+    left: 80%;
+    top: 10px;
+    border-radius: 3px;
+
+  }
+
+  input#botonValidar.botonValidar {
+    position: absolute;
+    left: 38%;
+    top: 80%;
+    border-radius: 3px;
+  }
+
+  #imagenUno { 
+    left: 1250px;
+    width: 700px;
+    margin-right: 180px;
+    margin-left: 170px;
+    border-radius: 20px;
+  }
+
+  #imagenDos {
+    left: 100px;
+    width: 200px;
+  }
+  
+  #imagenTres {
+    left: 100px;
+    width: 200px;
+  }
+
+  .footer {
+    padding: 20px; /* Some padding */
+    text-align: center; /* Center text*/
+    background: #005f6b; /* Grey background */
+  }

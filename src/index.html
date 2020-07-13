@@ -2,13 +2,109 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <title>PIEL DIVERSA - Proyecto Tarjeta de crédito válida</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+    <!--Etiqueta que muestra mensaje al usuario en case de que no pueda abrir JavaScript-->
+    <noscript>
+      <p>Bienvenido a Mi Sitio</p>
+      <p>La página que estás viendo requiere para su funcionamiento el uso de JavaScript. Si lo has deshabilitado intencionadamente, por favor vuelve a activarlo. De lo contrario verifica la configuración para poder acceder a esta página</p>  
+    </noscript>
+    <!--portada en imagen con logo-->
+    <img src="portada2.jpeg">
+    <!-- barra de navegaciòn lateral y contenedor para inicio de sesiòn-->
+    <div class="topnav" id="inicio">
+      <a class="active" href="#Home">Inicio</a>
+      <a href="#">Limpieza</a>
+      <a href="#">Hidratación</a>
+      <a href="#">Accesorios</a>
+      <div class="login-container">
+        <form action="">
+          <input type="text" placeholder="Usuario" name="username">
+          <input type="text" placeholder="Contraseña" name="psw">
+          <button type="submit">Iniciar sesión</button>
+        </form>
+      </div>  
+    </div>
+    <!--Barra de navegaciòn lateral oculta en la que se coloca la informaciòn personal o de interes sobre el sitio y/o empresa-->
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <script>
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+      }
+      </script>
+      <br>
+      <a href="#">Sobre nosotros</a>
+      <a href="#">Contacto </a>
+      <a href="#">Domicilios</a>
+      <a href="#">Blog</a>
+      <a href="#">Ayuda y soporte</a>
+    </div>
+    <!--Button de acceso a barra lateral-->
+    <span onclick="openNav()">&#9776;</span>
+    <script>
+    function openNav () {
+      document.getElementById("mySidenav").style.width = '250px';
+      }
+    </script>
+    <main>
+      <div class="header">
+        <b>Creamos productos pensando en tu Bienestar</b>
+      </div>
+      <img src="imagen1.jpg" id="imagenUno">
+      
+      <article>
+        <h1>Disfruta de la belleza y tranquilidad que te brinda lo natural</h1>
+        <p>La mayoría de los productos convencionales están llenos de  químicos dañinos como colorantes, fragancias sintéticas, sulfatos y derivados del petroleo que pueden provocar problemas en la piel y la salud.</p>
+        <p>Una piel saludable es una piel bella.Sabemos lo difícil que es encontrar productos para el cuidado de la piel que no estén llenos de químicos dañinos y contaminantes. 
+          Por esto creamos <strong>Piel Diversa</strong></p>
+      </article>
+      <!--Seccion de productos-->
+      <section id="productos">
+        <div class="container" id="vista1">
+          <button id="comprarProductos1">
+            <img class="item" id="imagenDos" alt="Jabon Corporal" src="jabonCorporal2.jpg">
+            <p>Jabon Corporal Natural 500ml</p>
+            <p><strong>COMPRAR</strong>  $22.000</p>
+          </button>
+          <button id="comprarProductos2">
+            <img class="item" id="imagenTres" alt="Jabon Barra Natural" src="jabon2.jpg">
+            <p>Jabon Natural Barra 200gr</p>
+            <p><strong>COMPRAR</strong>  $14.000</p>
+          </button>
+        </div>
+      </section>
+    
+      <!--Formulario de pago, con validacion de datos para asegurar que ciertos datos sean ingresados y se asegure enviar la informacion-->
+      <div id="vista2" class="note">
+        <form name="pago" id="formPago" class="container">
+          <h2>Información de Pago</h2>
+          <label for="creditCardNumber">Número de Tarjeta</label>
+          <input type="text" name="numeroTarjeta" placeholder="**** **** **** ****" maxlength="16" id="creditCardNumber" pattern="[0-9]{16}" size="25" required/>
+          <div>
+            <input type="button" class="botonValidar1" id="botonValidar" value="Confirmar Pago">
+            <br>
+            <br>
+            <input type="button" class="botonReiniciar" id="volver" value="Cancelar [X]">
+            <br>
+          </div>
+          <br>
+      </form>
+    </div>
+    </main>
+
+    <div id="vista3">
+      <section id="validar">
+      </section>
+    </div>
+    
+    <footer class="footer">
+      <strong>© Copyright by Laboratoria - Aprendiz Angélica Guevara - 2020</strong>
+    </footer>
+
+  <script src="index.js" type="module"></script>
   </body>
 </html>
