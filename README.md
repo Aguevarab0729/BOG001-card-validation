@@ -17,7 +17,7 @@ La interfaz debe permitir al usuario:
 * [ ] No debe poder ingresar un campo vacío.
 
 ## Prototipos 
-![Prototipo-Lapiz-y-papel](https://github.com/Aguevarab0729/BOG001-card-validation/blob/master/prototipoLapizyPapel.jpeg)
+![Prototipo-Lapiz-y-papel](https://github.com/Aguevarab0729/BOG001-card-validation/blob/master/sketch%20papel%20y%20lapiz.jpeg)
 
 Antes de este prototipo tenia uno más complejo, en el que el formulario desarrollado tenia mas campos que este, en el **feedback** que dieron mis compañeras a mi proyecto me dijeron que implementara un formulario mas simple en el que solo colocaran los datos mas básicos para el pago. el diseño y la implementacion del topnav y el sidenav o botón tipo hamburguesa les gusto mucho.
 
