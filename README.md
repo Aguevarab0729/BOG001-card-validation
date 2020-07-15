@@ -2,9 +2,15 @@
 
 # Investigación UX
 
+<<<<<<< HEAD
 Al crear **Piel Diversa** pensamos en las personas que han tenido malas eXperiencias con los productos tradicionales o adsequibles para el cuidado de la piel, debido a la cantidad de químicos y los ingredientes usados para producirlos que no son pensados para el cuidado de piel sensible y lastima seriamente con el uso continuo, haciendo que la piel se vea opaca y pierda la hidratación facilmente.
 
 Creamos nuestros productos para todo tipo de pieles y personas, ya que debido a su fabricación con ingredientes naturales y sin químicos se pueden utilizar sin preocupación y teniendo eXcelentes resultados para la limpieza y cuidado de la piel en el rostro y el cuerpo en general.
+=======
+Al crear **Piel Diversa** pensamos en las personas que han tenido malas experiencias con los productos tradicionales o adsequibles para el cuidado de la piel, debido a la cantidad de químicos y los ingredientes usados para producirlos que no son pensados para el cuidado de piel sensible y lastima seriamente con el uso continuo, haciendo que la piel se vea opaca y pierda la hidratación facilmente.
+
+Creamos nuestros productos para todo tipo de pieles y personas, ya que debido a su fabricación con ingredientes naturales y sin químicos se pueden utilizar sin preocupación y teniendo excelentes resultados para la limpieza y cuidado de la piel en el rostro y el cuerpo en general.
+>>>>>>> 47fb1960a4bdd519102bf803e51d05a7ae270ab1
 
 ## Lo que debe poder hacer mi proyecto en cuanto a interfaz de usuario (UI)
 
@@ -30,6 +36,7 @@ RefleXiona y luego marca los objetivos que has llegado a **entender** y
 
 ### UX
 
+<<<<<<< HEAD
 * [X] Diseñar la aplicación pensando y entendiendo al usuario
 * [X] Crear prototipos para obtener feedback e iterar
 * [ ] Aplicar los principios de diseño visual
@@ -39,6 +46,17 @@ RefleXiona y luego marca los objetivos que has llegado a **entender** y
 * [X] Uso correcto de HTML semántico
 * [X] Uso de selectores de CSS
 * [] Construir tu aplicación respetando el diseño realizado (maquetación).
+=======
+* [x] Diseñar la aplicación pensando y entendiendo al usuario
+* [x] Crear prototipos para obtener feedback e iterar
+* [X] Aplicar los principios de diseño visual
+
+### HTML y CSS
+
+* [x] Uso correcto de HTML semántico
+* [x] Uso de selectores de CSS
+* [x] Construir tu aplicación respetando el diseño realizado (maquetación).
+>>>>>>> 47fb1960a4bdd519102bf803e51d05a7ae270ab1
 
 ### DOM
 
@@ -48,10 +66,17 @@ RefleXiona y luego marca los objetivos que has llegado a **entender** y
 
 ### Javascript
 
+<<<<<<< HEAD
 * [X] Manipulación de strings
 * [X] Uso de condicionales
 * [X] Uso de bucles
 * [X] Uso de funciones
+=======
+* [x] Manipulación de strings
+* [X] Uso de condicionales
+* [X] Uso de bucles
+* [ ] Uso de funciones
+>>>>>>> 47fb1960a4bdd519102bf803e51d05a7ae270ab1
 * [ ] Datos atómicos y estructurados
 * [ ] Utilizar ES Modules (`import` | `eXport`).
 
@@ -61,6 +86,7 @@ RefleXiona y luego marca los objetivos que has llegado a **entender** y
 
 ### Git y GitHub
 
+<<<<<<< HEAD
 * [X] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
 * [X] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
 
@@ -69,3 +95,13 @@ RefleXiona y luego marca los objetivos que has llegado a **entender** y
 * [X] Organizar y dividir el código en módulos (Modularización).
 * [X] Uso de identificadores descriptivos (Nomenclatura | Semántica).
 * [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+=======
+* [x] Comandos de git (`add` | `commit` | `pull` | `status` | `push`).
+* [x] Manejo de repositorios de GitHub (`clone` | `fork` | `gh-pages`).
+
+### Buenas prácticas de desarrollo
+
+* [x] Organizar y dividir el código en módulos (Modularización).
+* [x] Uso de identificadores descriptivos (Nomenclatura | Semántica).
+* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
+>>>>>>> 47fb1960a4bdd519102bf803e51d05a7ae270ab1
