@@ -55,23 +55,24 @@
         <b>Creamos productos pensando en tu Bienestar</b>
       </div>
       <img src="imagen1.jpg" id="imagenUno">
-      
-      <article>
-        <h1>Disfruta de la belleza y tranquilidad que te brinda lo natural</h1>
-        <p>La mayoría de los productos convencionales están llenos de  químicos dañinos como colorantes, fragancias sintéticas, sulfatos y derivados del petroleo que pueden provocar problemas en la piel y la salud.</p>
-        <p>Una piel saludable es una piel bella.Sabemos lo difícil que es encontrar productos para el cuidado de la piel que no estén llenos de químicos dañinos y contaminantes. 
+      <div id="vista1">
+        <article>
+          <h1>Disfruta de la belleza y tranquilidad que te brinda lo natural</h1>
+          <p>La mayoría de los productos convencionales están llenos de  químicos dañinos como colorantes, fragancias sintéticas, sulfatos y derivados del petroleo que pueden provocar problemas en la piel y la salud.</p>
+          <p>Una piel saludable es una piel bella.Sabemos lo difícil que es encontrar productos para el cuidado de la piel que no estén llenos de químicos dañinos y contaminantes. 
           Por esto creamos <strong>Piel Diversa</strong></p>
-      </article>
+        </article>
+      </div>
       <!--Seccion de productos-->
       <section id="productos">
-        <div class="container" id="vista1">
+        <div class="container" id="vista2">
           <button id="comprarProductos1">
-            <img class="item" id="imagenDos" alt="Jabon Corporal" src="jabonCorporal2.jpg">
+            <img class="item" id="imagenDos" alt="Jabon Corporal" onclick="comprar();" src="jabonCorporal2.jpg">
             <p>Jabon Corporal Natural 500ml</p>
             <p><strong>COMPRAR</strong>  $22.000</p>
           </button>
           <button id="comprarProductos2">
-            <img class="item" id="imagenTres" alt="Jabon Barra Natural" src="jabon2.jpg">
+            <img class="item" id="imagenTres" alt="Jabon Barra Natural" onclick="comprar();" src="jabon2.jpg">
             <p>Jabon Natural Barra 200gr</p>
             <p><strong>COMPRAR</strong>  $14.000</p>
           </button>
@@ -79,16 +80,16 @@
       </section>
     
       <!--Formulario de pago, con validacion de datos para asegurar que ciertos datos sean ingresados y se asegure enviar la informacion-->
-      <div id="vista2" class="note">
+      <div id="vista3">
         <form name="pago" id="formPago" class="container">
           <h2>Información de Pago</h2>
           <label for="creditCardNumber">Número de Tarjeta</label>
           <input type="text" name="numeroTarjeta" placeholder="**** **** **** ****" maxlength="16" id="creditCardNumber" pattern="[0-9]{16}" size="25" required/>
           <div>
-            <input type="button" class="botonValidar1" id="botonValidar" value="Confirmar Pago">
+            <input type="button" class="botonValidar1" id="botonValidar" onclick="validarPago();" value="Confirmar Pago">
             <br>
             <br>
-            <input type="button" class="botonReiniciar" id="volver" value="Cancelar [X]">
+            <input type="button" class="botonReiniciar" id="volver" onclick="cancelar();" value="Cancelar [X]">
             <br>
           </div>
           <br>
@@ -96,8 +97,10 @@
     </div>
     </main>
 
-    <div id="vista3">
+    <div id="vista4">
       <section id="validar">
+        <h3>Información Tarjeta Usada</h3>
+        <p id="tarjetaEnmascarada">#### #### #### ####</p>
       </section>
     </div>
     
